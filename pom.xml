@@ -10,6 +10,7 @@
     <modules>
         <module>case-api</module>
         <module>case-provider-dept-8001</module>
+        <module>case-consumer-dept-80</module>
     </modules>
     <packaging>pom</packaging>
 
