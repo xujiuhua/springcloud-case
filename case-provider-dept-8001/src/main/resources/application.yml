@@ -1,0 +1,23 @@
+server:
+  port: 8001
+
+spring:
+  application:
+    name: case-dept
+  datasource:
+    url: jdbc:mysql://localhost:3306/cloudDB01?useUnicode=true
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      #初始化连接大小
+      initialSize: 4
+      #最小空闲连接数
+      minIdle: 3
+      #最大连接数
+      maxActive: 5
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.friend.springcloud.entities

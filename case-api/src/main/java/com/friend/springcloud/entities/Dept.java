@@ -1,4 +1,4 @@
-package com.johuer.springcloud.entities;
+package com.friend.springcloud.entities;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -19,18 +19,18 @@ import java.io.Serializable;
 @Accessors(chain=true)
 public class Dept implements Serializable {
 
-    private Long deptno;
+    private Long deptNo;
 
-    private String dname;
+    private String deptName;
 
     /**
      * 来自那个数据库，因为微服务架构可以一个服务对应一个数据库，同一个信息被存储到不同数据库
      */
-    private String db_source;
+    private String dbSource;
 
-    public Dept(String dname) {
+    public Dept(String deptName) {
         super();
-        this.dname = dname;
+        this.deptName = deptName;
     }
 
 }
