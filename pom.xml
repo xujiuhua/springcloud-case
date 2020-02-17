@@ -11,6 +11,7 @@
         <module>case-api</module>
         <module>case-provider-dept-8001</module>
         <module>case-consumer-dept-80</module>
+        <module>case-eureka-7001</module>
     </modules>
     <packaging>pom</packaging>
 
