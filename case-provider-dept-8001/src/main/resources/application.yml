@@ -26,3 +26,12 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:7001/eureka
+  instance:
+    instance-id: case-dept8001
+    prefer-ip-address: true
+
+info:
+  app.name: casecloud
+  company.name: www.jing-tong.com
+  build.artifacId: ${project.artifacId}
+  build.version: ${project.version}
