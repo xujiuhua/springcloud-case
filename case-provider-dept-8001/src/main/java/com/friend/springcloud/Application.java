@@ -3,6 +3,7 @@ package com.friend.springcloud;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
  * <p></p>
@@ -13,6 +14,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 @MapperScan(basePackages = "com.friend.springcloud.dao")
 @SpringBootApplication
+@EnableEurekaClient
 public class Application {
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);

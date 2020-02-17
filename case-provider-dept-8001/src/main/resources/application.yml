@@ -21,3 +21,8 @@ spring:
 mybatis:
   mapper-locations: classpath:mapper/*.xml
   type-aliases-package: com.friend.springcloud.entities
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
