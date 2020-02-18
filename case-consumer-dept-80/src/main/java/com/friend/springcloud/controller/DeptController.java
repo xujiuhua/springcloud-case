@@ -18,7 +18,8 @@ import java.util.List;
 @RequestMapping("consumer")
 public class DeptController {
 
-    private static final String REST_URL = "http://localhost:8001";
+//    private static final String REST_URL = "http://localhost:8001";
+    private static final String REST_URL = "http://CASE-DEPT";
 
     private final RestTemplate restTemplate;
 
