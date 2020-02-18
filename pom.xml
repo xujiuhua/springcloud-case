@@ -14,6 +14,8 @@
         <module>case-eureka-7001</module>
         <module>case-eureka-7002</module>
         <module>case-eureka-7003</module>
+        <module>case-provider-dept-8002</module>
+        <module>case-provider-dept-8003</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -78,7 +80,6 @@
     </dependencyManagement>
 
     <build>
-        <finalName>casecloud</finalName>
         <resources>
             <resource>
                 <directory>src/main/resource</directory>
