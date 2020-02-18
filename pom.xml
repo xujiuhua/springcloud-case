@@ -12,6 +12,8 @@
         <module>case-provider-dept-8001</module>
         <module>case-consumer-dept-80</module>
         <module>case-eureka-7001</module>
+        <module>case-eureka-7002</module>
+        <module>case-eureka-7003</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -89,7 +91,7 @@
                 <artifactId>maven-resources-plugin</artifactId>
                 <configuration>
                     <delimiters>
-                        <delimiter>$</delimiter>
+                        <delimiter>${*}</delimiter>
                     </delimiters>
                 </configuration>
             </plugin>
