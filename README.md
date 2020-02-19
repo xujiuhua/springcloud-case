@@ -25,11 +25,13 @@
 ![img](asserts/CAP.jpg)
 
 
-- [ ] 三、Ribbon负载均衡
+- [x] 三、Ribbon负载均衡
 
 客户端的负载均衡
 
 - [ ] 四、Feign负载均衡
+
+声明式Web服务客户端，面向接口编程；自带ribbon负载算法
 
 - [ ] 五、Hystrix断路器
 

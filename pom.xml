@@ -16,6 +16,7 @@
         <module>case-eureka-7003</module>
         <module>case-provider-dept-8002</module>
         <module>case-provider-dept-8003</module>
+        <module>case-consumer-dept-feign</module>
     </modules>
     <packaging>pom</packaging>
 

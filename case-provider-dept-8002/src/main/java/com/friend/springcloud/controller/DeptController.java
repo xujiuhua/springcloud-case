@@ -26,20 +26,18 @@ public class DeptController {
     }
 
     @GetMapping("{id}")
-    public ResponseEntity<Dept> getOne(@PathVariable Long id) {
-        Dept dept = deptService.getById(id);
-        return ResponseEntity.ok(dept);
+    public Dept getOne(@PathVariable Long id) {
+        return deptService.getById(id);
     }
 
     @GetMapping("list")
-    public ResponseEntity<List<Dept>> list() {
+    public List<Dept> list() {
         List<Dept> list = deptService.list();
-        return ResponseEntity.ok(list);
+        return list;
     }
 
     @PostMapping("save")
-    public ResponseEntity<Boolean> save(@RequestBody Dept dept) {
-        boolean saveBool = deptService.save(dept);
-        return ResponseEntity.ok(saveBool);
+    public Boolean save(@RequestBody Dept dept) {
+       return deptService.save(dept);
     }
 }
