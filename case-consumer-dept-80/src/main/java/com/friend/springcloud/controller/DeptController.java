@@ -27,15 +27,15 @@ public class DeptController {
         this.restTemplate = restTemplate;
     }
 
-    @PostMapping("/dept/save")
-    public ResponseEntity<Boolean> save(Dept dept) {
-        return restTemplate.postForEntity(REST_URL + "/dept/save", dept, Boolean.class);
-    }
-
-    @GetMapping("/dept/list")
-    public ResponseEntity list() {
-        return restTemplate.getForEntity(REST_URL + "/dept/list", List.class);
-    }
+//    @PostMapping("/dept/save")
+//    public ResponseEntity<Boolean> save(Dept dept) {
+//        return restTemplate.postForEntity(REST_URL + "/dept/save", dept, Boolean.class);
+//    }
+//
+//    @GetMapping("/dept/list")
+//    public ResponseEntity list() {
+//        return restTemplate.getForEntity(REST_URL + "/dept/list", List.class);
+//    }
 
     @GetMapping("/dept/{id}")
     public ResponseEntity<Dept> get(@PathVariable Long id) {

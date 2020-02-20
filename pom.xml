@@ -17,6 +17,7 @@
         <module>case-provider-dept-8002</module>
         <module>case-provider-dept-8003</module>
         <module>case-consumer-dept-feign</module>
+        <module>case-provider-dept-hystrix-8001</module>
     </modules>
     <packaging>pom</packaging>
 
