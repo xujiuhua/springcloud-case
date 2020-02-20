@@ -16,7 +16,7 @@ import java.util.List;
  * @version 1.0
  * @since JDK 1.8
  */
-@FeignClient(value = "CASE-DEPT")
+@FeignClient(value = "CASE-DEPT", fallbackFactory = DeptClientServiceFallbackFactory.class)
 public interface DeptClientService {
 
     @PostMapping("/dept/save")
