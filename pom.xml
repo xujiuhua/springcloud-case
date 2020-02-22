@@ -20,6 +20,8 @@
         <module>case-provider-dept-hystrix-8001</module>
         <module>case-consumer-dept-hystrix-dashboard</module>
         <module>case-zuul-gateway-9527</module>
+        <module>case-config-3344</module>
+        <module>case-config-client-3355</module>
     </modules>
     <packaging>pom</packaging>
 

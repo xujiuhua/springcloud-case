@@ -43,7 +43,11 @@
 
 3、服务监控hystrixDashboard
 
-- [ ] 六、Zuul路由网关
+- [x] 六、Zuul路由网关
 
 > 路由、过滤
+
+- [x] 七、SpringCloud Config
+
+服务端和客户端
 

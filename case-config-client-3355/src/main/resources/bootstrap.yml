@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+      # 从github读取的资源名称
+      name: case-config-client
+      profile: test
+      label: master
+      # 本微服务启动后先去找3344号服务，通过config name获取配置信息
+      uri: http://config-3344.com:3344
