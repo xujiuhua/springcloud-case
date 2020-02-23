@@ -22,7 +22,7 @@
 4. 功能类似dubbo的zookeeper
 
 > Eureka 满足AP原则；Zookeeper 满足CP原则
->
+
 ![img](asserts/CAP.jpg)
 
 - [x] 三、Ribbon负载均衡
@@ -45,7 +45,7 @@
 
 - [x] 六、Zuul路由网关
 
-> 路由、过滤
+路由、过滤
 
 - [x] 七、SpringCloud Config
 
