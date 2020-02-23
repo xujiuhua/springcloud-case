@@ -22,8 +22,8 @@
 4. 功能类似dubbo的zookeeper
 
 > Eureka 满足AP原则；Zookeeper 满足CP原则
+>
 ![img](asserts/CAP.jpg)
-
 
 - [x] 三、Ribbon负载均衡
 
