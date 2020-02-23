@@ -22,6 +22,8 @@
         <module>case-zuul-gateway-9527</module>
         <module>case-config-3344</module>
         <module>case-config-client-3355</module>
+        <module>case-config-eureka-client-7001</module>
+        <module>case-config-dept-client-8001</module>
     </modules>
     <packaging>pom</packaging>
 
